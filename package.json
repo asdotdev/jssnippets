@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "watch": "webpack --watch --progress --config webpack.dev.js",
-    "build": "webpack --watch --progress --config webpack.prod.js"
+    "build": "webpack --progress --config webpack.prod.js",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
   },
   "dependencies": {
     "prismjs": "^1.29.0",

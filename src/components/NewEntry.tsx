@@ -10,7 +10,7 @@ interface NewEntryProps {
 const NewEntry: React.FC<NewEntryProps> = ({
     formData,
     onUpdateFormData,
-    saveSnippet,
+    saveSnippet
 }) => {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
